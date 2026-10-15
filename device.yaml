@@ -14,7 +14,7 @@ logger:
 
 api:
   encryption:
-    key: "wkRJEJ5RBxBrLxx2Gl3H0jX40IH+TA7yUHlWzuZ07hc="
+    key: ""
 
 ota:
   - platform: esphome
@@ -24,7 +24,7 @@ wifi:
   password: !secret wifi_password
   ap:
     ssid: CoolClock Fallback Hotspot
-    password: "UKhyBXOW3rLD"
+    password: ""
 
 captive_portal:
 
